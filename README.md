@@ -1,14 +1,16 @@
 # LINDAS Triplestore Benchmark
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true&editor=code#https://github.com/zazuko/lindas-benchmark)
+<!--- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true&editor=code#https://github.com/zazuko/lindas-benchmark) --->
 
 Welcome to the LINDAS Triplestore Benchmark repository!
-Here, you can explore SPARQL queries extracted from the Swiss government SPARQL endpoint, LINDAS, to benchmark and compare other triplestores.
+
+This repository has been built by Zazuko GmbH on mandate of the Swiss Federal Archives with the aim of evaluating the performance of different triplestores.
+A series of SPARQL queries were extracted from the Swiss government SPARQL endpoint, LINDAS, to constitute the benchmarking testbed.
+
 
 ## Baseline Comparison
 
-Currently, we are in the process of preparing a baseline comparison of the LINDAS endpoint for future reference.
-Stay tuned for updates on this section.
+A baseline comparison of the LINDAS endpoint relying on the Stardog (R) triplestore is provided for future reference.
 
 ## Requirements
 
