@@ -1,7 +1,5 @@
 # LINDAS Triplestore Benchmark
 
-<!--- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true&editor=code#https://github.com/zazuko/lindas-benchmark) --->
-
 Welcome to the LINDAS Triplestore Benchmark repository!
 
 This repository has been built by Zazuko GmbH on mandate of the Swiss Federal Archives with the aim of evaluating the performance of different triplestores.
@@ -20,6 +18,7 @@ Ensure you have the following prerequisites ready:
 - A snapshot of the LINDAS dataset, which you can download [here](https://download.zazukoians.org/lindas/lindas_2024-06-14.nq.gz).
   The dataset is approximately 2.3 GB compressed and 60GB uncompressed.
 - A triplestore that you wish to test against.
+- The above referenced dataset uploaded into the triplestore.
 
 We use [k6](https://k6.io/) to benchmark the queries.
 We also provide a quick way to check if the triplestore is compliant with the queries that are run against LINDAS.
@@ -28,11 +27,13 @@ We also provide a quick way to check if the triplestore is compliant with the qu
 
 All SPARQL queries that are used in the differents tests are stored in the `queries` folder.
 
+<!---
 In case you add/remove/rename a query, you need to update the `query-files.json` file, by running the following command:
 
 ```sh
 ./scripts/update-query-list.sh
 ```
+--->
 
 In case you want to know the query file from an ID shown in the results, you can run the following command:
 
@@ -61,7 +62,7 @@ The script has a limit of 1 day to run.
 This will run the queries against the triplestore and check if they are able to return a result.
 The results are stored in a file `./results/summary-conformity.json`.
 
-And inspect results in a human-readable format, run the following command (`jq` is required):
+And to inspect results in a human-readable format, run the following command (`jq` is required):
 
 ```sh
 ./scripts/summary-conformity-simple.sh
@@ -99,3 +100,9 @@ To inspect the results in a human-readable format, run the following command (`j
 ```
 
 by updating the path to the JSON file you want to inspect.
+
+### Graphical results rendering
+
+By using [gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true&editor=code#https://github.com/SwissFederalArchives/lindas-benchmark), the benchmark results are graphically summaraized.
+
+<!--- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true&editor=code#https://github.com/zazuko/lindas-benchmark) --->
