@@ -2,7 +2,7 @@
 
 Welcome to the LINDAS Triplestore Benchmark repository!
 
-This repository has been built by Zazuko GmbH on mandate of the Swiss Federal Archives with the aim of evaluating the performance of different triplestores.
+This repository has been built by Zazuko GmbH on mandate of the Swiss Federal Archives with the aim of comparing the performance of different triplestores.
 A series of SPARQL queries were extracted from the Swiss government SPARQL endpoint, LINDAS, to constitute the benchmarking testbed.
 
 
