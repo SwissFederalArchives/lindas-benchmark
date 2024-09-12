@@ -8,7 +8,7 @@ A series of SPARQL queries were extracted from the Swiss government SPARQL endpo
 
 ## Baseline Comparison
 
-A baseline comparison of the LINDAS endpoint relying on the Stardog&reg; triplestore is provided for future reference.
+A benchmark results file run on the LINDAS endpoint using the Stardog&reg; triplestore is provided as a baseline for comparison.
 
 ## Requirements
 
