@@ -15,7 +15,7 @@ A benchmark results file run on the LINDAS endpoint using the Stardog&reg; tripl
 Ensure you have the following prerequisites ready:
 
 - [k6](https://k6.io/docs/get-started/installation/)
-- A snapshot of the LINDAS dataset, which you can download [here](https://download.zazukoians.org/lindas/lindas_2024-06-14.nq.gz).
+- A snapshot of the LINDAS dataset, which you can download [here](https://bar-files.opendata.swiss/owncloud/index.php/s/S9iryd7DYLe2kQz).
   The dataset is approximately 2.3 GB compressed and 60GB uncompressed.
 - A triplestore that you wish to test against.
 - The above referenced dataset uploaded into the triplestore.
