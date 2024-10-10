@@ -107,4 +107,3 @@ By using [Gitpod](https://gitpod.io/?autostart=true&editor=code#https://github.c
 
 <!--- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/?autostart=true&editor=code#https://github.com/zazuko/lindas-benchmark) --->
 
-A script will be provided soon to compare the performance of your prefered triplestore against the one used in LINDAS.
